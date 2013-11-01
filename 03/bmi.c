@@ -36,7 +36,7 @@ int main (void) {
     printf("Bitte geben Sie die Einheit ihres Gewichts (kg/lbs) ein: ");
     scanf("%s", unit);
 
-    printf("Bitte geben Sie ijre Größe in cm ein: ");
+    printf("Bitte geben Sie ihre Größe in cm ein: ");
     scanf("%d", &height);
 
     if (!strcmp(unit, "kg")) {
