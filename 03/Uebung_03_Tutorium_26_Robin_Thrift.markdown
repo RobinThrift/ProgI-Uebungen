@@ -35,4 +35,10 @@ Für die Berechnung des Wertes im Dezimalsystem kann die gleiche Formel wie aus 
 
 
 
-###b)
+##Aufgabe 3
+
+
+##Aufgabe 4
+Der Präprozessor scannt den Quellcode bevor er dem Compiler übergeben wird und sorgt dafür, dass die benötigten, inkludierten Dateien angefügt werden und definierte Konstanten durch ihre Werte ersetzt werden.
+
+Dieses Programm würde 3 ausgeben, da der Präprozessor #define unabhängig vom `if` C-Statement ausführen würde.
