@@ -12,7 +12,7 @@ void decToBin(char inNum[]) {
 
     long num = strtol(inNum, NULL, 10);
 
-    int curr = num;
+    long curr = num;
 
     int r = 0;
 
