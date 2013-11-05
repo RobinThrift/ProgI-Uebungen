@@ -3,10 +3,12 @@
 #include <math.h>
 #include <stdlib.h>
 
+
 void decToBin(char inNum[]) {
 
     int i = 0;
-    char newNum[101];
+    char newNum[64];
+    char realBin[64];
 
     long num = strtol(inNum, NULL, 10);
 
@@ -14,9 +16,7 @@ void decToBin(char inNum[]) {
 
     int r = 0;
 
-    printf("%s\n", newNum);
-
-    return;
+    int length = 0;
 
     while (curr != 0) {
         r = curr % 2;
@@ -27,8 +27,22 @@ void decToBin(char inNum[]) {
         i++;
     }
 
+    i = 0;
 
-    printf("%s\n", newNum);
+    while (strcmp(&newNum[i], "\0")) {
+        length++;
+        i++;
+    }
+
+    i = length - 1;
+
+    while (i > -1) {
+        realBin[length - i - 1] = newNum[i];
+        i--;
+    }
+
+
+    printf("%s\n", realBin);
 
 }
 
@@ -47,7 +61,6 @@ void binToDec(char num[]) {
 
     while (i < length) {
         sum += (num[i] == '1') ? exp2(i) : 0;
-        // printf("%d: %c, %f\n", i, num[i], exp2(i));
         i++;
     }
 
@@ -64,7 +77,6 @@ int main(void) {
     printf("(Enter um umzuwandeln)\n");
     scanf("%s %s", num, base);
 
-    // printf("\n%s, %s\n", num, base);
 
     if (!strcmp(base, "10")) {
         decToBin(num);
