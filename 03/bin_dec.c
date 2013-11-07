@@ -42,7 +42,7 @@ void decToBin(char inNum[]) {
     }
 
 
-    printf("%s\n", realBin);
+    printf("%s im System 10 entspricht %s im System 2.\n", inNum, realBin);
 
 }
 
