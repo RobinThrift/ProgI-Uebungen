@@ -37,8 +37,29 @@ Für die Berechnung des Wertes im Dezimalsystem kann die gleiche Formel wie aus 
 
 ##Aufgabe 3
 
+###a)
+
+**(1)** $$$ x=4+3 \cdot (y=1+(z=\underline{3 \cdot 2}+1)) $$$   
+**(2)** $$$ x=4+3 \cdot (y=1+(z=\underline{6+1})) $$$  
+**(3)** $$$ x=4+3 \cdot (y=\underline{1+(z=7)}) $$$  
+**(4)** $$$ x=4+\underline{3 \cdot (y=8)} $$$  
+**(5)** $$$ x=\underline{4+24} $$$  
+**(6)** $$$ x=24 $$$  
+
+
+###b)
+**(1)** $$$ \underline{8 + 7} \leq 16^{2 * 7 + 3 == 17} $$$   
+**(2)** $$$ 15 \leq 16^{\underline{2 * 7 + 3} == 17} $$$   
+**(3)** $$$ 15 \leq 16^{\underline{17 == 17}} $$$  
+**(4)** $$$ \underline{15 \leq 16^1} $$$   
+**(5)** $$$ 1 $$$
+
+###c)
+5 + 1 > 2 * 2 && (x = 7 * 2 == 28 / 7.0) || 1  
+Trivial, da egal was der linke Ausdruck ist, wird das Ergebnis 1 sein.
+
 
 ##Aufgabe 4
 Der Präprozessor scannt den Quellcode bevor er dem Compiler übergeben wird und sorgt dafür, dass die benötigten, inkludierten Dateien angefügt werden und definierte Konstanten durch ihre Werte ersetzt werden.
 
-Dieses Programm würde 3 ausgeben, da der Präprozessor #define unabhängig vom `if` C-Statement ausführen würde.
+Dieses Programm würde "3" ausgeben, da der Präprozessor #define unabhängig vom `if` C-Statement ausführen würde und somit den Wert für `CDE` setzt.
