@@ -2,3 +2,4 @@
 *.pdf
 .DS_STORE
 .gitignore.swp
+*.zip
