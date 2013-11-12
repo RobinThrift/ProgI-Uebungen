@@ -4,3 +4,5 @@
 .gitignore.swp
 *.zip
 04/Assignment04Code
+04/*.bmp
+04/bmp.*
