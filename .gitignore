@@ -8,6 +8,7 @@
 04/bmp.*
 05/bmp.*
 05/rectfill.*
-05/helpers.h
 05/sierpinski.*
-Assignment05Code
+05/*.bmp
+05/helpers.*
+05/Assignment05Code
